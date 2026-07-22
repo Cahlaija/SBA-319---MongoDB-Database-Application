@@ -1,0 +1,16 @@
+{
+  "name": "job-tracker-api",
+  "version": "1.0.0",
+  "description": "SBA 319 MongoDB Database Application",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "seed": "node db/seed.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.5.1"
+  }
+}
